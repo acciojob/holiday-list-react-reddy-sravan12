@@ -33,7 +33,7 @@ const App = () => {
     { name: 'Tirupati', country: 'India' },
     ]
 
-    const indianCities = vacationCities.filter(city => city.country === 'India');
+    const indianCities = cityList.filter(city => city.country === 'India');
     
   return (
     <div id="main">
